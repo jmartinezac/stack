@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.out-input {
+    border-radius: 3em;
+    height: 1.5em;
+    width: 100%;
+}
+
+.botones {
+    height: 60px;
+    width: 50px;
+    border-radius: 70%;
+    font-size: 15px;
+}
+
+@media (max-width: 900px) {
+    .botones {
+        height: 40px;
+        width: 20px;
+        font-size: 6px;
+        padding: 0.5em;
+        margin: 0.5em;
+        text-align: center;
+    }
+
+    .calculadora {
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 1300px) {
+    .botones {
+        font-size: 9px;
+    }
