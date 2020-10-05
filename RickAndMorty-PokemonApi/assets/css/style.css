@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    z-index: 1;
+}
+
+.headerStyle {
+    color: rgb(25, 216, 216);
+}
+
+.cards-rick {}
